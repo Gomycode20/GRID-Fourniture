@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>GRID</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="./Capture d’écran 2025-02-26 160050.png" alt="logo">
+        </div>
+
+        <div class="nav-btns">
+            <button>Mon compte</button>
+            <button>Carte</button>
+            <button>S'identifier</button>
+        </div>
+
+
+
+    </nav>
+
+    <div class="hero">
+        <img src="./roma-modular-sofa-living-hero.jpg" alt="hero">
+    </div>
+
+    <aside>
+        <div><i class="fa-solid fa-kitchen-set"></i>
+            <p>Cuisine</p>
+        </div>
+        <div><i class="fa-solid fa-utensils"></i>
+            <p>Salle à manger</p>
+        </div>
+        <div><i class="fa-solid fa-bath"></i>
+            <p>Salle de bain</p>
+        </div>
+        <div><i class="fa-solid fa-couch"></i>
+            <p>Salon et séjour</p>
+        </div>
+        <div><i class="fa-solid fa-bed"></i>
+            <p>Chambre à coucher</p>
+        </div>
+        <div><i class="fa-solid fa-lightbulb"></i>
+            <p>Luminaires et éclairage</p>
+        </div>
+    </aside>
+
+
+    <main>
+    
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://www.ikea.com/fr/fr/images/products/kivik-canape-dangle-5pl-meridienne-tibbleby-beige-gris__1056107_pe848244_s5.jpg?f=s" alt="salon gris" width="300">
+            </div>
+            <div class="container">
+                <p>Cassandra, Canapé d'angle, 5 places</p>
+                <div class="list-container">
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Gris</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Vert Emeraude</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Marron</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/I/81n0aRzELLL._AC_UF1000,1000_QL80_.jpg" alt="salon beige" width="300">
+            </div>
+            <div class="container">
+                <p>Veronica, Canapé d'angle, 6 places</p>
+                <div class="list-container">
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Beige Clair</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Bleu Marine</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Marron</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://www.ikea.com/fr/fr/images/products/soederhamn-canape-dangle-4-places-sans-accoudoir-kelinge-gris-turquoise__1213773_pe911276_s5.jpg?f=s" alt="salon bleu" width="300">
+            </div>
+            <div class="container">
+                <p>Valentina, Canapé d'angle, 4 places</p>
+                <div class="list-container">
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Gris Turquoise</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Blanc</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Marron</span> 
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://www.ikea.com/ca/fr/images/products/songesand-struct-lit-2-btes-de-rangement-brun-luroey__1101593_pe866767_s5.jpg?f=s" alt="bed1" width="300">
+            </div>
+            <div class="container">
+                <p>Ellouise, structure lit + 2 btes de rangement, 2 places</p>
+                <div class="list-container">
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Noyer</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Wengé</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Teck</span> 
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://m.media-amazon.com/images/I/81wBdR5h-KL.jpg" alt="bed1" width="300">
+            </div>
+            <div class="container">
+                <p>Elizabeth,  lit matelassé à rangement intégré, 2 places</p>
+                <div class="list-container">
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Gris</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Beige</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Rose Pâle</span> 
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://www.ikea.com/ch/fr/images/products/idanaes-lit-avec-rangement-matelasse-gunnared-gris-fonce__1101383_pe866643_s5.jpg?f=s" alt="bed1" width="300">
+            </div>
+            <div class="container">
+                <p>Liliane, Lit coffre matelassé, 2 places</p>
+                <div class="list-container">
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Gris</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Marron</span>
+                    <input type="checkbox" onclick="toggleTask">
+                    <span>Bleu</span> 
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://www.ikea.com/fr/fr/images/products/sinnerlig-suspension-bambou-fait-main__1101926_pe866503_s5.jpg" alt="bed1" width="300">
+            </div>
+            <div class="container">
+                <p>Suspension, bambou fait main, 27 cm</p>
+           
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://cdn02.plentymarkets.com/9krpwzxa6mmo/item/images/81060575/full/90687-02.jpg" alt="bed1" width="300">
+            </div>
+            <div class="container">
+                <p>Lampe suspendue au plafond rétro avec poutre en bois, éclairage de salon avec grille.</p>
+              
+                </div>
+            </div>
+        </div>
+
+        <div class="articles" >
+            <div class="image-container">
+                <img src="https://cdn.maisonetstyles.com/content/cache/produit/1000x1000/1337068_1_L.jpg" alt="bed1" width="300">
+            </div>
+            <div class="container">
+                <p>Suspension 3 lampes 115x30x150 cm en verre fumé gris et métal.</p>
+    
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <div class="chat">
+        <img src="https://cdn-icons-png.flaticon.com/512/3095/3095583.png"
+            alt="chat">
+    </div>
+
+    <footer>
+        <p> Documents juridiques et informations légales - Charte de protection des données - Politique relative aux
+            cookies - Paramètres des cookies - Mentions légales
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
