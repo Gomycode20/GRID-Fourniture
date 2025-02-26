@@ -51,6 +51,9 @@ nav img {
     grid-area: hero;
     display: flex;
     justify-content: center;
+    background-image:url("./roma-modular-sofa-living-hero.jpg");
+    background-position: center;
+    background-size: cover; 
 }
 
 .hero img{
@@ -74,13 +77,13 @@ aside div {
         flex-direction: row;
         gap: 10px;
         align-items: center;
+        width: 200px;
         
 }
     
 aside div:hover {
         background-color: #e3cd9e;
         border-radius: 10px;
-        width: 200px;
         padding: 5px;
         cursor: pointer;
 }
@@ -134,4 +137,26 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 1200px){
+    main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 900px){
+    aside p{
+        display: none;
+    }
+    aside div{
+        width: fit-content;
+    }
+    body{
+        grid-template-columns: 50px 1fr;
+    }
+}
+@media screen and (max-width: 680px){
+    main{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
